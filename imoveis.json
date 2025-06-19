@@ -2,7 +2,11 @@
   {
     "titulo": "Casa com 3 quartos no centro",
     "descricao": "Casa ampla, com suíte, quintal e garagem para 2 carros.",
-    "imagem": "imagens/casa1.jpg",
+    "imagens": [
+      "imagens/casa1.jpg",
+      "imagens/casa1b.jpg",
+      "imagens/casa1c.jpg"
+    ],
     "valor": "R$ 450.000",
     "localizacao": "Centro - Cidade Exemplo"
   },
