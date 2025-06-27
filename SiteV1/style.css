@@ -198,3 +198,131 @@ a.whatsapp {
 .lightbox .next {
   right: 20px;
 }
+.imovel-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px; /* Largura máxima do card */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para a tag <img> diretamente */
+.imovel-card-image {
+  width: 100%;
+  height: 250px; /* Altura fixa para a imagem */
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  object-position: center; /* Centraliza a imagem dentro da área */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.imovel-card-content {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imovel-card-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-details {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.imovel-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-details .cod {
+  font-weight: bold;
+}
+
+.imovel-location {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-location span {
+  display: block; /* Para que Jaraguá do Sul fique abaixo de Amizade */
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.imovel-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.imovel-icon-item svg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  fill: #333; /* Cor dos ícones */
+}
+.imovel-icon-item p {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+.imovel-price {
+  font-size: 1.8em;
+  color: #cc0000; /* Cor vermelha para o preço */
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.imovel-button {
+  display: block;
+  width: calc(100% - 40px); /* 100% menos o padding */
+  padding: 15px;
+  margin: 0 20px 20px 20px; /* Margem para manter o padding lateral do card */
+  background-color: #a9a9a9; /* Cor cinza do botão */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Para que o padding não aumente a largura total */
+}
+
+.imovel-button:hover {
+  background-color: #8c8c8c;
+}
+
+/* Opcional: Adicione media queries para responsividade avançada */
+@media (max-width: 600px) {
+  .imovel-icons {
+    flex-wrap: wrap; /* Ícones podem quebrar linha em telas pequenas */
+    gap: 10px; /* Espaçamento entre os ícones */
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Casa com 3 quartos no centro",
+    "descricao": "Casa ampla, com suíte, quintal e garagem para 2 carros.",
+    "imagens": [
+      "imagens/casa1.jpg",
+      "imagens/casa1b.jpg",
+      "imagens/casa1c.jpg"
+    ],
+    "valor": "R$ 450.000",
+    "localizacao": "Centro - Cidade Exemplo"
+  },
+  {
+    "titulo": "Apartamento 2 quartos - Bairro Jardim",
+    "descricao": "Apartamento moderno, com varanda e área de lazer.",
+    "imagem": "imagens/apto1.jpg",
+    "valor": "R$ 320.000",
+    "localizacao": "Bairro Jardim - Cidade Exemplo"
+  }
+]

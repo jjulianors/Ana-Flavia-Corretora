@@ -1,0 +1,357 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #68a7f8;
+  color: white;
+  padding: 20px;
+  text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+header img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+  text-align: center; /* Garante que os títulos também estejam centralizados */
+}
+
+a.whatsapp {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Estilo para centralizar o contêiner dos cartões */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px; /* Largura máxima para o contêiner de cartões */
+  margin: 20px auto; /* Centraliza o contêiner na página com margem superior/inferior */
+  padding: 0 20px; /* Padding lateral para evitar que os cards encostem na borda da tela */
+}
+
+.imovel-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px; /* Largura máxima do card individual */
+  display: flex;
+  flex-direction: column;
+}
+
+.imovel-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.imovel-card-content {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imovel-card-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-details {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.imovel-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-details .cod {
+  font-weight: bold;
+}
+
+.imovel-location {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-location span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.imovel-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.imovel-icon-item svg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  fill: #333;
+}
+
+.imovel-icon-item p {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+.imovel-price {
+  font-size: 1.8em;
+  color: #cc0000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.imovel-button {
+  display: block;
+  width: calc(100% - 40px);
+  padding: 15px;
+  margin: 0 20px 20px 20px;
+  background-color: #a9a9a9;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.imovel-button:hover {
+  background-color: #8c8c8c;
+}
+
+@media (max-width: 600px) {
+  .imovel-icons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+/* Estilos para o Carrossel */
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.carousel img.main {
+  /* Adicionado .main para ser mais específico */
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  position: absolute;
+  top: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10; /* Garante que os botões fiquem acima das imagens */
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.thumbnails {
+  margin-top: 10px;
+  text-align: center; /* Centraliza as miniaturas */
+}
+
+.thumbnails img {
+  width: 100px;
+  height: 75px; /* Adicione uma altura fixa para miniaturas */
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px; /* Opcional: borda arredondada para miniaturas */
+}
+
+.thumbnails img.active {
+  border: 2px solid #333;
+}
+
+/* Estilos para o Lightbox (se estiver usando) */
+.lightbox {
+  display: none; /* Controlado por JS */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox .nav {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lightbox .nav.prev-nav {
+  left: 20px;
+}
+
+.lightbox .nav.next-nav {
+  right: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center; /* Centraliza o texto e elementos inline/inline-block */
+}
+
+/* Garante que o cabeçalho e os títulos da página principal se centralizem também */
+header {
+  background: #68a7f8;
+  color: white;
+  padding: 20px;
+  text-align: center; /* Mantém o cabeçalho centralizado */
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+  text-align: center; /* Garante que os títulos h1 e h2 estejam centralizados */
+}
+
+/* Estilos específicos para a página de detalhes, se não forem centralizados automaticamente */
+.info-container {
+  display: flex; /* Mantém os itens em linha */
+  flex-wrap: wrap; /* Permite quebrar linha se não houver espaço */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 20px; /* Espaço entre os itens */
+  max-width: 800px; /* Largura máxima para o contêiner de informações */
+  margin: 20px auto; /* Centraliza o contêiner em relação à página */
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo de cada item (ícone e texto) */
+  text-align: center;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.info-item svg {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 5px;
+  fill: #333;
+}
+
+.info-item span {
+  font-weight: bold;
+}
+
+.descricao {
+  max-width: 800px; /* Limita a largura do texto para melhor leitura */
+  margin: 20px auto; /* Centraliza o bloco de descrição */
+  padding: 0 20px; /* Adiciona padding lateral */
+  text-align: justify; /* Opcional: para texto justificado dentro do bloco centralizado */
+}
+
+.descricao p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Certifique-se que o botão do WhatsApp também se centralize */
+.whatsapp {
+  display: inline-block; /* Já era inline-block, que centraliza com text-align: center no pai */
+  margin-top: 20px;
+  margin-bottom: 20px; /* Adiciona margem abaixo do botão */
+  padding: 10px 20px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
