@@ -357,9 +357,9 @@ header {
 /* Novo estilo para o contêiner dos botões de contato */
 .contact-buttons {
   display: flex; /* Transforma em flex container para os botões */
-  gap: 15px; /* Espaço entre o botão do WhatsApp e o ícone do Instagram */
+  gap: 25px; /* Espaço entre o botão do WhatsApp e o ícone do Instagram */
   align-items: center; /* Alinha os itens verticalmente (botão e ícone) */
-  margin-top: 10px; /* Adiciona um pouco de espaço acima dos botões */
+  margin-top: 5px; /* Adiciona um pouco de espaço acima dos botões */
 }
 
 /* Certifique-se que o botão do WhatsApp também se centralize */
@@ -382,12 +382,12 @@ header {
 .instagram-icon {
   display: flex; /* Para alinhar o ícone verticalmente */
   align-items: center;
-  height: 40px; /* A mesma altura do botão do WhatsApp para alinhamento */
+  height: 20px; /* A mesma altura do botão do WhatsApp para alinhamento */
 }
 
 .instagram-icon img {
-  width: 250; /* Tamanho do ícone do Instagram */
-  height: 250px; /* Tamanho do ícone do Instagram */
+  width: 270; /* Tamanho do ícone do Instagram */
+  height: 270px; /* Tamanho do ícone do Instagram */
   /* Remove qualquer margin-bottom se houver */
 }
 
