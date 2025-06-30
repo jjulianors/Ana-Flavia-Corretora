@@ -387,7 +387,7 @@ header {
 
 .instagram-icon img {
   width: 250; /* Tamanho do ícone do Instagram */
-  height: 75px; /* Tamanho do ícone do Instagram */
+  height: 250px; /* Tamanho do ícone do Instagram */
   /* Remove qualquer margin-bottom se houver */
 }
 
