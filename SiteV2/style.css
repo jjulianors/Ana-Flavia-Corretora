@@ -343,15 +343,61 @@ h2 {
   line-height: 1.6;
   margin-bottom: 10px;
 }
+header {
+  background: #68a7f8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex; /* Transforma o header em um flex container */
+  flex-direction: column; /* Alinha os itens verticalmente por padrão */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 10px; /* Espaço entre os itens flex */
+}
+
+/* Novo estilo para o contêiner dos botões de contato */
+.contact-buttons {
+  display: flex; /* Transforma em flex container para os botões */
+  gap: 15px; /* Espaço entre o botão do WhatsApp e o ícone do Instagram */
+  align-items: center; /* Alinha os itens verticalmente (botão e ícone) */
+  margin-top: 10px; /* Adiciona um pouco de espaço acima dos botões */
+}
 
 /* Certifique-se que o botão do WhatsApp também se centralize */
 .whatsapp {
-  display: inline-block; /* Já era inline-block, que centraliza com text-align: center no pai */
-  margin-top: 20px;
-  margin-bottom: 20px; /* Adiciona margem abaixo do botão */
+  /* Seus estilos existentes para o botão whatsapp */
+  display: inline-block; /* Mantém como inline-block */
+  margin-top: 0; /* Remove a margem superior que pode ter sido definida anteriormente */
   padding: 10px 20px;
   background: #25d366;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  line-height: 1; /* Ajuda a alinhar o texto verticalmente */
+  height: 20px; /* Define uma altura explícita para o botão de texto para alinhar com o ícone */
+  display: flex; /* Para alinhar o texto verticalmente dentro do botão */
+  align-items: center; /* Para alinhar o texto verticalmente dentro do botão */
+  justify-content: center; /* Para alinhar o texto horizontalmente dentro do botão */
+}
+
+.instagram-icon {
+  display: flex; /* Para alinhar o ícone verticalmente */
+  align-items: center;
+  height: 40px; /* A mesma altura do botão do WhatsApp para alinhamento */
+}
+
+.instagram-icon img {
+  width: 250; /* Tamanho do ícone do Instagram */
+  height: 75px; /* Tamanho do ícone do Instagram */
+  /* Remove qualquer margin-bottom se houver */
+}
+
+/* Ajustes para o logo e título no header para melhor alinhamento */
+header .logo-link {
+  display: block; /* Garante que o link do logo seja um bloco para centralizar */
+  margin-bottom: 5px; /* Pequena margem abaixo do logo */
+}
+
+header h1 {
+  margin: 0; /* Remove margem padrão para melhor controle no flex */
+  padding: 0;
 }
