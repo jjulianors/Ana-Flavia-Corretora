@@ -1,0 +1,374 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center; /* Centraliza o texto e elementos inline/inline-block */
+}
+
+header {
+  background: #68a7f8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex; /* Transforma o header em um flex container */
+  flex-direction: column; /* Alinha os itens verticalmente por padrão */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 10px; /* Espaço entre os itens flex */
+}
+
+header .logo-link {
+  display: block;
+  margin-bottom: 5px;
+}
+
+header img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.whatsapp {
+  display: flex; /* Para alinhar o texto verticalmente dentro do botão */
+  align-items: center; /* Para alinhar o texto verticalmente dentro do botão */
+  justify-content: center; /* Para alinhar o texto horizontalmente dentro do botão */
+  margin-top: 0;
+  padding: 10px 20px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  line-height: 1;
+  height: 20px; /* Define uma altura explícita para o botão de texto para alinhar com o ícone */
+}
+
+.instagram-icon {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.instagram-icon img {
+  width: 20px; /* Tamanho do ícone do Instagram */
+  height: 20px; /* Tamanho do ícone do Instagram */
+  border-radius: 0;
+  object-fit: contain;
+}
+
+/* Estilo para centralizar o contêiner dos cartões na página principal */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.imovel-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imovel-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.imovel-card-content {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imovel-card-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-details {
+  text-align: left; /* Mantém o alinhamento à esquerda para detalhes */
+  margin-bottom: 10px;
+}
+
+.imovel-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-details .cod {
+  font-weight: bold;
+}
+
+.imovel-location {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-location span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.imovel-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.imovel-icon-item img {
+  /* Alterado de svg para img */
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.imovel-icon-item p {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+.imovel-price {
+  font-size: 1.8em;
+  color: #cc0000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.imovel-button {
+  display: block;
+  width: calc(100% - 40px);
+  padding: 15px;
+  margin: 0 20px 20px 20px;
+  background-color: #a9a9a9;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.imovel-button:hover {
+  background-color: #8c8c8c;
+}
+
+/* Estilos para o Carrossel (aplicável também na página de detalhes) */
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.carousel img.main {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  position: absolute;
+  top: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.thumbnails {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.thumbnails img.active {
+  border: 2px solid #333;
+}
+
+/* Estilos para o Lightbox (aplicável também na página de detalhes) */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox .nav {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lightbox .nav.prev-nav {
+  left: 20px;
+}
+
+.lightbox .nav.next-nav {
+  right: 20px;
+}
+
+/* Estilos para a página de detalhes (detalhes-imovel.html) */
+main#imovel-detalhes-container {
+  max-width: 900px; /* Largura máxima para o conteúdo de detalhes */
+  margin: 20px auto; /* Centraliza o contêiner principal */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Ajustes para o info-container na página de detalhes */
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.95em;
+  color: #555;
+  min-width: 100px; /* Garante um tamanho mínimo para cada item */
+}
+
+.info-item img {
+  /* Mude de svg para img */
+  width: 28px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+.info-item span {
+  font-weight: bold;
+}
+
+.descricao {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: justify; /* Justifica o texto da descrição */
+}
+
+.descricao p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 600px) {
+  .imovel-icons,
+  .info-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

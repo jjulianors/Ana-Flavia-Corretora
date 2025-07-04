@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Flávia - Corretora de Imóveis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Logo do Corretor" />
+      </a>
+      <h1>Ana Flávia - Corretora de Imóveis</h1>
+      <div class="contact-buttons">
+        <a
+          class="whatsapp"
+          target="_blank"
+          href="https://wa.me/5547991175167?text=Olá! Tenho interesse em um imóvel"
+          aria-label="Nosso WhatsApp"
+        >
+          <img src="icons/WhatsApp.svg" alt="Ícone do WhatsApp" />
+        </a>
+        <a
+          class="instagram-icon"
+          target="_blank"
+          href="https://www.instagram.com/ana_flavia_corretora/"
+          aria-label="Nosso Instagram"
+        >
+          <img src="icons/instagram.svg" alt="Ícone do Instagram" />
+        </a>
+      </div>
+    </header>
+
+    <h2>Imóveis à Venda</h2>
+    <!-- Este div será preenchido dinamicamente pelo JavaScript -->
+    <div class="cards-container" id="lista-imoveis">
+      <!-- Os cartões dos imóveis serão inseridos aqui pelo imoveis.js -->
+    </div>
+
+    <script src="imoveis.js"></script>
+  </body>
+</html>

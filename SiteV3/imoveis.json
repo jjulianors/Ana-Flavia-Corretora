@@ -1,0 +1,52 @@
+[
+  {
+    "id": "10001",
+    "titulo": "Casa no Amizade",
+    "tipo": "Casa",
+    "cod": "10001",
+    "localizacao": "Amizade",
+    "cidade": "Jaraguá Do Sul",
+    "area": "248,59 m²",
+    "quartos": 3,
+    "banheiros": 4,
+    "garagem": 2,
+    "suites": 1,
+    "valor": "R$ 2.000.000,00",
+    "imagens": [
+      "images/imovel1_1.jpg",
+      "images/imovel1_2.jpg",
+      "images/imovel1_3.jpg"
+    ],
+    "descricao_longa": [
+      "Linda casa localizada no centro da cidade, próxima a escolas, supermercados e farmácias.",
+      "Possui excelente iluminação natural, amplo espaço gourmet e área de lazer com piscina.",
+      "Documentação em dia, pronta para financiamento bancário."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10001."
+  },
+  {
+    "id": "10002",
+    "titulo": "Apartamento no Centro",
+    "tipo": "Apartamento",
+    "cod": "10002",
+    "localizacao": "Centro",
+    "cidade": "Jaraguá Do Sul",
+    "area": "248,59 m²",
+    "quartos": 3,
+    "banheiros": 4,
+    "garagem": 2,
+    "suites": 0,
+    "valor": "R$ 500.000,00",
+    "imagens": [
+      "images/imovel1_2.jpg",
+      "images/imovel2_1.jpg",
+      "images/imovel2_2.jpg"
+    ],
+    "descricao_longa": [
+      "Apartamento moderno e espaçoso, localizado no coração da cidade, com fácil acesso a comércios e serviços.",
+      "Dispõe de varanda gourmet, área de lazer completa com piscina, academia e salão de festas.",
+      "Ideal para quem busca conforto e praticidade no dia a dia."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  }
+]

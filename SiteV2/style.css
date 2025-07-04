@@ -380,15 +380,16 @@ header {
 }
 
 .instagram-icon {
-  display: flex; /* Para alinhar o ícone verticalmente */
+  display: flex;
   align-items: center;
-  height: 20px; /* A mesma altura do botão do WhatsApp para alinhamento */
+  height: 20px;
 }
 
 .instagram-icon img {
-  width: 270; /* Tamanho do ícone do Instagram */
-  height: 270px; /* Tamanho do ícone do Instagram */
-  /* Remove qualquer margin-bottom se houver */
+  width: 67px; /* Corrigido com unidade */
+  height: 20px;
+  border-radius: 0; /* Garante que não haja arredondamento */
+  object-fit: contain; /* Garante que o SVG se encaixe corretamente */
 }
 
 /* Ajustes para o logo e título no header para melhor alinhamento */
