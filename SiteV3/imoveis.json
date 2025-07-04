@@ -1,7 +1,7 @@
 [
   {
     "id": "10001",
-    "titulo": "Casa no Amizade",
+    "titulo": "Casa",
     "tipo": "Casa",
     "cod": "10001",
     "localizacao": "Amizade",
@@ -26,7 +26,7 @@
   },
   {
     "id": "10002",
-    "titulo": "Apartamento no Centro",
+    "titulo": "Apartamento",
     "tipo": "Apartamento",
     "cod": "10002",
     "localizacao": "Centro",
