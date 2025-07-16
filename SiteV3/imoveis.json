@@ -1,9 +1,9 @@
 [
   {
-    "id": "10001",
+    "id": "1001",
     "titulo": "Casa",
     "tipo": "Casa",
-    "cod": "10001",
+    "cod": "1001",
     "localizacao": "Amizade",
     "cidade": "Jaraguá Do Sul",
     "area": "- m²",
@@ -30,10 +30,10 @@
     "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10001."
   },
   {
-    "id": "10002",
+    "id": "1002",
     "titulo": "Ponto comercial",
     "tipo": "Ponto comercial",
-    "cod": "10002",
+    "cod": "1002",
     "localizacao": "Czerniewicz",
     "cidade": "Jaraguá Do Sul",
     "area": "- m²",
@@ -64,10 +64,10 @@
     "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
   },
   {
-    "id": "10003",
+    "id": "1003",
     "titulo": "Apartamento",
     "tipo": "Apartamento",
-    "cod": "10003",
+    "cod": "1003",
     "localizacao": "Jaraguá Esquerdo",
     "cidade": "Jaraguá Do Sul",
     "area": "38,4 m²",
@@ -92,10 +92,10 @@
     "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
   },
     {
-    "id": "10004",
+    "id": "1004",
     "titulo": "Apartamento",
     "tipo": "Apartamento",
-    "cod": "10004",
+    "cod": "1004",
     "localizacao": "Vila Lalau",
     "cidade": "Jaraguá Do Sul",
     "area": "81,4 m²",
@@ -120,10 +120,10 @@
     "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
   },
     {
-    "id": "10005",
+    "id": "1005",
     "titulo": "Apartamento",
     "tipo": "Apartamento",
-    "cod": "10005",
+    "cod": "1005",
     "localizacao": "Vieiras",
     "cidade": "Jaraguá Do Sul",
     "area": "- m²",
@@ -153,6 +153,47 @@
       "Lindo e aconchegante apartamento no bairro Vieiras em Jaraguá do Sul",
       "Próximo à WEG, ao Mercado Rancho Bom e a escolas é um grande atrativo, especialmente para quem trabalha na WEG ou tem filhos em idade escolar.",
       "Semi mobiliado com móveis sob medida, ar condicionado nos comodos e ampla sacada com churrasqueira."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  },
+    {
+    "id": "1006",
+    "titulo": "Apartamento",
+    "tipo": "Apartamento",
+    "cod": "1005",
+    "localizacao": "Jaraguá Esquerdo",
+    "cidade": "Jaraguá Do Sul",
+    "area": " 136 m²",
+    "quartos": 0,
+    "suites": 3,
+    "banheiros": 1,
+    "garagem": 2,
+    "valor": "R$ 1.265.000,00",
+    "imagens": [
+      "images/imovel6/imovel6_1.JPG",
+      "images/imovel6/imovel6_2.JPG",
+      "images/imovel6/imovel6_3.JPG",
+      "images/imovel6/imovel6_4.JPG",
+      "images/imovel6/imovel6_5.JPG",
+      "images/imovel6/imovel6_6.JPG",
+      "images/imovel6/imovel6_7.JPG",
+      "images/imovel6/imovel6_8.JPG",
+      "images/imovel6/imovel6_9.JPG",
+      "images/imovel6/imovel6_10.JPG",
+      "images/imovel6/imovel6_11.JPG",
+      "images/imovel6/imovel6_12.JPG",
+      "images/imovel6/imovel6_13.JPG",
+      "images/imovel6/imovel6_14.JPG",
+      "images/imovel6/imovel6_15.JPG",
+      "images/imovel6/imovel6_16.JPG",
+      "images/imovel6/imovel6_17.JPG",
+      "images/imovel6/imovel6_18.JPG"
+    ],
+    "descricao_longa": [
+      "Apartamento de alto padrão com Living integrado com churrasqueira, banheiro social + lavabo, 2 vagas de garagem.",
+      "O empreendimento oferece salão de festas, sala de jogos, academia equipada, Sistema moderno de acesso com senha e reconhecimento facial.",
+      "Localizado em uma das regiões mais privilegiadas de Jaraguá do Sul, no bairro Jaraguá Esquerdo.",
+      "Semi mobiliado com móveis sob medida e ar condicionado central."
     ],
     "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
   }
