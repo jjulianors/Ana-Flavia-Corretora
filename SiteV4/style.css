@@ -29,7 +29,7 @@ header .logo-link {
   width: auto; /* Garante que o SVG seja responsivo */
   height: auto; /* Mantém a proporção */
   /* Ajuste a largura e altura conforme o tamanho desejado para seu logo */
-  max-width: 1080px; /* Exemplo: defina uma largura fixa */
+  max-width: 1100px; /* Exemplo: defina uma largura fixa */
   /* height: 100px; */ /* Opcional: defina uma altura, mas width auto geralmente é melhor para SVG */
   /* Se o SVG tiver um preenchimento padrão muito grande, você pode adicionar um padding: 0; ou margin: 0; aqui. */
 }
