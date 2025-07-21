@@ -26,7 +26,7 @@ header .logo-link {
 }
 
 .header-logo-svg {
-  width: auto; /* Garante que o SVG seja responsivo */
+  width: 100%; /* Garante que o SVG seja responsivo */
   height: auto; /* Mantém a proporção */
   /* Ajuste a largura e altura conforme o tamanho desejado para seu logo */
   max-width: 1100px; /* Exemplo: defina uma largura fixa */
