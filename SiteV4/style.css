@@ -33,7 +33,7 @@ header .logo-link {
 
 .header-logo-svg {
   width: 100%; /* Faça o SVG ocupar 90% da largura de seu pai (.logo-link) */
-  max-width: 1080px; /* Defina um tamanho máximo para o SVG em telas muito grandes */
+  max-width: 1280px; /* Defina um tamanho máximo para o SVG em telas muito grandes */
   height: auto; /* Mantenha a proporção do SVG */
   display: block; /* Garante que a imagem se comporte como bloco para margens/alinhamento */
   margin: 0 auto; /* Centraliza o SVG horizontalmente, caso 'width' não seja 100% */
@@ -338,7 +338,7 @@ main#imovel-detalhes-container {
 }
 
 /* Media Queries para ajuste fino em telas menores */
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
   /* Para tablets e celulares */
   header {
     padding: 0px 0px; /* Reduza o padding do cabeçalho em telas menores */
