@@ -10,28 +10,33 @@ body {
 }
 
 header {
-  background: #000000;
+  background: black;
   color: white;
-  padding: 0px 0px; /* Aumente o padding vertical (primeiro valor) para dar mais altura ao cabeçalho */
-  text-align: center;
-  display: flex; /* Para centralizar o logo */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente (se o header tiver altura suficiente) */
-  /* Remova o gap e flex-direction: column se o logo for o único item e você não precisar */
+  /* Ajuste o padding para controlar a altura mínima do cabeçalho.
+     Aumente os valores verticais (primeiro e terceiro) para mais altura. */
+  padding: 30px 20px; /* Exemplo: 30px em cima/embaixo, 20px nas laterais */
+  display: flex; /* Mantém o flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  min-height: 80px; /* Garante uma altura mínima para o cabeçalho, mesmo sem conteúdo grande */
+  /* Opcional: Para ocupar 100% da largura, mas já é o padrão de um bloco */
+  width: 100%;
 }
 
 header .logo-link {
-  display: block; /* Garante que o link ocupe a largura necessária */
-  /* Remova margin-bottom: 5px; se não houver mais nada abaixo */
+  display: flex; /* Use flexbox para o link também, se o SVG for o único item e quiser mais controle */
+  justify-content: center; /* Centraliza o SVG dentro do link */
+  align-items: center;
+  width: 100%; /* O link ocupa 100% da largura disponível no cabeçalho */
+  /* Remova margin-bottom se não for mais necessário */
 }
 
 .header-logo-svg {
-  width: auto; /* Garante que o SVG seja responsivo */
-  height: auto; /* Mantém a proporção */
-  /* Ajuste a largura e altura conforme o tamanho desejado para seu logo */
-  max-width: 1100px; /* Exemplo: defina uma largura fixa */
-  /* height: 100px; */ /* Opcional: defina uma altura, mas width auto geralmente é melhor para SVG */
-  /* Se o SVG tiver um preenchimento padrão muito grande, você pode adicionar um padding: 0; ou margin: 0; aqui. */
+  width: 90%; /* Faça o SVG ocupar 90% da largura de seu pai (.logo-link) */
+  max-width: 1080px; /* Defina um tamanho máximo para o SVG em telas muito grandes */
+  height: auto; /* Mantenha a proporção do SVG */
+  display: block; /* Garante que a imagem se comporte como bloco para margens/alinhamento */
+  margin: 0 auto; /* Centraliza o SVG horizontalmente, caso 'width' não seja 100% */
 }
 
 /* Remova os estilos para h1, .contact-buttons, .whatsapp, .instagram-icon,
@@ -332,11 +337,29 @@ main#imovel-detalhes-container {
   margin-bottom: 10px;
 }
 
-/* Media queries para responsividade */
-@media (max-width: 600px) {
-  .imovel-icons,
-  .info-container {
-    flex-wrap: wrap;
-    gap: 10px;
+/* Media Queries para ajuste fino em telas menores */
+@media (max-width: 1080px) {
+  /* Para tablets e celulares */
+  header {
+    padding: 0px 0px; /* Reduza o padding do cabeçalho em telas menores */
+    min-height: 60px; /* Altura mínima menor para celular */
+  }
+
+  .header-logo-svg {
+    width: 95%; /* SVG pode ser um pouco maior em telas menores */
+    max-width: 1080px; /* Reduza o tamanho máximo para celular */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Para celulares pequenos */
+  header {
+    padding: 15px 10px; /* Mais redução de padding */
+    min-height: 50px;
+  }
+
+  .header-logo-svg {
+    width: 100%; /* Ocupa 100% da largura disponível no celular */
+    max-width: 250px; /* Um limite ainda menor para telas muito pequenas */
   }
 }

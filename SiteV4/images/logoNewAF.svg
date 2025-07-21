@@ -2,9 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100mm"
-   height="28.240763mm"
-   viewBox="0 0 100 28.240763"
+   viewBox="0 0 1080 305"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -25,24 +23,24 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="false"
-     inkscape:zoom="2.7860625"
-     inkscape:cx="188.97638"
-     inkscape:cy="53.30103"
+     inkscape:zoom="0.34825781"
+     inkscape:cx="1124.1672"
+     inkscape:cy="1115.5529"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"><sodipodi:guide
-       position="498.88144,334.89537"
+       position="498.88145,541.05303"
        orientation="0.58560214,0.81059863"
        id="guide1"
        inkscape:locked="false" /><sodipodi:guide
-       position="481.86023,253.95529"
+       position="481.86024,460.11295"
        orientation="0,-1"
        id="guide2"
        inkscape:locked="false" /><sodipodi:guide
-       position="500.15468,291.393"
+       position="500.15469,497.55066"
        orientation="0.36728671,0.93010778"
        id="guide3"
        inkscape:locked="false" /></sodipodi:namedview><defs
@@ -159,7 +157,7 @@
      id="layer1"
      transform="translate(382.07841,-92.339379)"><g
        id="g1"
-       transform="matrix(0.28571429,0,0,0.28571429,-272.91315,65.956699)"><image
+       transform="matrix(3.0857143,0,0,3.0857143,796.90641,-192.59356)"><image
          width="641.96686"
          height="352.95642"
          preserveAspectRatio="none"
