@@ -1,0 +1,201 @@
+[
+  {
+    "id": "1001",
+    "titulo": "Casa",
+    "tipo": "Casa",
+    "cod": "1001",
+    "localizacao": "Amizade",
+    "cidade": "Jaraguá Do Sul",
+    "area": "- m²",
+    "quartos": 2,
+    "banheiros": 3,
+    "garagem": 2,
+    "suites": 1,
+    "valor": "R$ 1.100.000,00",
+    "imagens": [
+      "images/imovel1/imovel1_2.jpg",
+      "images/imovel1/imovel1_1.jpg",
+      "images/imovel1/imovel1_3.jpg",
+      "images/imovel1/imovel1_4.jpg",
+      "images/imovel1/imovel1_5.jpg",
+      "images/imovel1/imovel1_6.jpg",
+      "images/imovel1/imovel1_7.jpg",
+      "images/imovel1/imovel1_8.jpg"
+    ],
+    "descricao_longa": [
+      "Linda casa localizada no centro da cidade, próxima a escolas, supermercados e farmácias.",
+      "Possui excelente iluminação natural, amplo espaço gourmet e área de lazer com piscina.",
+      "Documentação em dia, pronta para financiamento bancário."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10001."
+  },
+  {
+    "id": "1002",
+    "titulo": "Ponto comercial",
+    "tipo": "Ponto comercial",
+    "cod": "1002",
+    "localizacao": "Czerniewicz",
+    "cidade": "Jaraguá Do Sul",
+    "area": "- m²",
+    "quartos": "-",
+    "banheiros": 1,
+    "garagem": "-",
+    "suites": "-",
+    "valor": "R$ 70.000,00",
+    "imagens": [
+      "images/imovel2/imovel2_1.JPG",
+      "images/imovel2/imovel2_2.JPG",
+      "images/imovel2/imovel2_3.JPG",
+      "images/imovel2/imovel2_4.JPG",
+      "images/imovel2/imovel2_5.JPG",
+      "images/imovel2/imovel2_6.JPG",
+      "images/imovel2/imovel2_7.JPG",
+      "images/imovel2/imovel2_8.JPG",
+      "images/imovel2/imovel2_9.JPG",
+      "images/imovel2/imovel2_10.JPG",
+      "images/imovel2/imovel2_11.JPG"
+    ],
+    "descricao_longa": [
+      "Lindo ponto comercial.",
+      "Pode ser adaptado para diferentes tipos de negócios, como coworking,",
+      "escritório de advocacia ou consultório.",
+      "Locação do prédio valor: R$ 3.240,00."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  },
+  {
+    "id": "1003",
+    "titulo": "Apartamento",
+    "tipo": "Apartamento",
+    "cod": "1003",
+    "localizacao": "Jaraguá Esquerdo",
+    "cidade": "Jaraguá Do Sul",
+    "area": "38,4 m²",
+    "quartos": 2,
+    "banheiros": 1,
+    "garagem": 1,
+    "suites": "-",
+    "valor": "R$ 260.000,00",
+    "imagens": [
+      "images/imovel3/imovel3_1.jpg",
+      "images/imovel3/imovel3_2.jpg",
+      "images/imovel3/imovel3_3.jpg",
+      "images/imovel3/imovel3_4.jpg",
+      "images/imovel3/imovel3_5.jpg",
+      "images/imovel3/imovel3_6.jpg",
+      "images/imovel3/imovel3_7.jpg"
+    ],
+    "descricao_longa": [
+      "Apresento á você uma chance imperdível de adquirir seu novo lar no Residencial Jardim de Gênova, com uma localização central que oferece praticidade e conforto.",
+      "O residencial conta com áreas comuns que oferecem lazer e comodidade, incluindo piscina, salão de festas."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  },
+    {
+    "id": "1004",
+    "titulo": "Apartamento",
+    "tipo": "Apartamento",
+    "cod": "1004",
+    "localizacao": "Vila Lalau",
+    "cidade": "Jaraguá Do Sul",
+    "area": "81,4 m²",
+    "quartos": 1,
+    "suites": 1,
+    "banheiros": 2,
+    "garagem": 1,
+    "valor": "R$ 580.000,00",
+    "imagens": [
+      "images/imovel4/imovel4_1.jpg",
+      "images/imovel4/imovel4_2.jpg",
+      "images/imovel4/imovel4_3.jpg",
+      "images/imovel4/imovel4_4.jpg",
+      "images/imovel4/imovel4_5.jpg",
+      "images/imovel4/imovel4_6.jpg",
+      "images/imovel4/imovel4_7.jpg"
+    ],
+    "descricao_longa": [
+      "Apresento á você uma chance imperdível de adquirir seu novo lar no Residencial Jardim de Gênova, com uma localização central que oferece praticidade e conforto.",
+      "O residencial conta com áreas comuns que oferecem lazer e comodidade, incluindo piscina, salão de festas."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  },
+    {
+    "id": "1005",
+    "titulo": "Apartamento",
+    "tipo": "Apartamento",
+    "cod": "1005",
+    "localizacao": "Vieiras",
+    "cidade": "Jaraguá Do Sul",
+    "area": "- m²",
+    "quartos": 1,
+    "suites": 1,
+    "banheiros": 1,
+    "garagem": 1,
+    "valor": "R$ 380.000,00",
+    "imagens": [
+      "images/imovel5/imovel5_1.JPG",
+      "images/imovel5/imovel5_2.JPG",
+      "images/imovel5/imovel5_3.JPG",
+      "images/imovel5/imovel5_4.JPG",
+      "images/imovel5/imovel5_5.JPG",
+      "images/imovel5/imovel5_6.JPG",
+      "images/imovel5/imovel5_7.JPG",
+      "images/imovel5/imovel5_8.JPG",
+      "images/imovel5/imovel5_9.JPG",
+      "images/imovel5/imovel5_10.JPG",
+      "images/imovel5/imovel5_11.JPG",
+      "images/imovel5/imovel5_12.JPG",
+      "images/imovel5/imovel5_13.JPG",
+      "images/imovel5/imovel5_14.JPG",
+      "images/imovel5/imovel5_15.JPG"
+    ],
+    "descricao_longa": [
+      "Lindo e aconchegante apartamento no bairro Vieiras em Jaraguá do Sul",
+      "Próximo à WEG, ao Mercado Rancho Bom e a escolas é um grande atrativo, especialmente para quem trabalha na WEG ou tem filhos em idade escolar.",
+      "Semi mobiliado com móveis sob medida, ar condicionado nos comodos e ampla sacada com churrasqueira."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  },
+    {
+    "id": "1006",
+    "titulo": "Apartamento",
+    "tipo": "Apartamento",
+    "cod": "1005",
+    "localizacao": "Jaraguá Esquerdo",
+    "cidade": "Jaraguá Do Sul",
+    "area": " 136 m²",
+    "quartos": "-",
+    "suites": 3,
+    "banheiros": 1,
+    "garagem": 2,
+    "valor": "R$ 1.265.000,00",
+    "imagens": [
+      "images/imovel6/imovel6_1.jpg",
+      "images/imovel6/imovel6_2.jpg",
+      "images/imovel6/imovel6_3.jpg",
+      "images/imovel6/imovel6_4.jpg",
+      "images/imovel6/imovel6_5.jpg",
+      "images/imovel6/imovel6_6.jpg",
+      "images/imovel6/imovel6_7.jpg",
+      "images/imovel6/imovel6_8.jpg",
+      "images/imovel6/imovel6_9.jpg",
+      "images/imovel6/imovel6_10.jpg",
+      "images/imovel6/imovel6_11.jpg",
+      "images/imovel6/imovel6_12.jpg",
+      "images/imovel6/imovel6_13.jpg",
+      "images/imovel6/imovel6_14.jpg",
+      "images/imovel6/imovel6_15.jpg",
+      "images/imovel6/imovel6_16.jpg",
+      "images/imovel6/imovel6_17.jpg",
+      "images/imovel6/imovel6_18.jpg"
+    ],
+    "descricao_longa": [
+      "Apartamento de alto padrão com Living integrado com churrasqueira, banheiro social + lavabo, 2 vagas de garagem.",
+      "O empreendimento oferece salão de festas, sala de jogos, academia equipada, Sistema moderno de acesso com senha e reconhecimento facial.",
+      "Localizado em uma das regiões mais privilegiadas de Jaraguá do Sul, no bairro Jaraguá Esquerdo.",
+      "Semi mobiliado com móveis sob medida e ar condicionado central.",
+      "Avalia-se permuta."
+    ],
+    "whatsapp_link": "https://wa.me/5547991175167?text=Olá! Tenho interesse no imóvel, Ref:10002."
+  }
+]

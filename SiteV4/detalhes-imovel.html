@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Imóvel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logoAzul.png" type="image/png" /> </head>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Logo do Corretor" />
+      </a>
+      <h1>Ana Flávia</h1>
+      <h1>Corretora de Imóveis</h1>
+      <div class="contact-buttons">
+        <a
+          class="instagram-icon"
+          target="_blank"
+          href="https://wa.me/5547991175167?text=Olá! Tenho interesse em um imóvel"
+          aria-label="Nosso WhatsApp"
+        >
+          <img src="icons/WhatsApp.svg" alt="Ícone do WhatsApp" />
+        </a>
+        <a
+          class="instagram-icon"
+          target="_blank"
+          href="https://www.instagram.com/ana_flavia_corretora/"
+          aria-label="Nosso Instagram"
+        >
+          <img src="icons/instagram.svg" alt="Ícone do Instagram" />
+        </a>
+      </div>
+    </header>
+
+    <main id="imovel-detalhes-container">
+      <!-- O conteúdo detalhado do imóvel será carregado aqui pelo JavaScript -->
+      <h1 id="detalhe-titulo"></h1>
+      <p id="detalhe-localizacao"></p>
+
+      <div class="carousel" id="detalhe-carousel">
+        <!-- Imagens do carrossel serão inseridas aqui -->
+        <button class="button prev" onclick="prevSlide()">❮</button>
+        <button class="button next" onclick="nextSlide()">❯</button>
+      </div>
+      <div class="thumbnails" id="detalhe-thumbnails">
+        <!-- Miniaturas serão inseridas aqui -->
+      </div>
+
+      <!-- Adicionar um contêiner para o lightbox -->
+      <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">✖️</span>
+        <button class="nav prev-nav" onclick="prevLightbox()">❮</button>
+        <img id="lightbox-img" src="" alt="Imagem ampliada" />
+        <button class="nav next-nav" onclick="nextLightbox()">❯</button>
+      </div>
+
+      <div class="info-container">
+        <div class="info-item">
+          <img src="icons/area.svg" alt="Ícone de Área" />
+          <span><strong>Área:</strong> <span id="detalhe-area"></span></span>
+        </div>
+        <div class="info-item">
+          <img src="icons/quarto.svg" alt="Ícone de Quartos" />
+          <span
+            ><strong>Quartos:</strong> <span id="detalhe-quartos"></span
+          ></span>
+        </div>
+                <div class="info-item">
+          <img src="icons/quarto.svg" alt="Ícone de Suítes" />
+          <span
+            ><strong>Suítes:</strong> <span id="detalhe-suites"></span
+          ></span>
+        </div>
+        <div class="info-item">
+          <img src="icons/banheiro.svg" alt="Ícone de Banheiros" />
+          <span
+            ><strong>Banheiros:</strong> <span id="detalhe-banheiros"></span
+          ></span>
+        </div>
+        <div class="info-item">
+          <img src="icons/garagem.svg" alt="Ícone de Garagem" />
+          <span
+            ><strong>Garagem:</strong>
+            <span id="detalhe-garagem"></span
+          ></span>
+        </div>
+      </div>
+
+      <div class="descricao" id="detalhe-descricao">
+        <!-- Descrição longa será inserida aqui -->
+      </div>
+
+      <a id="detalhe-whatsapp" class="whatsapp" target="_blank" href=""
+        >Falar no WhatsApp</a
+      >
+      <a href="index.html" class="imovel-button" style="margin-top: 20px"
+        >Voltar para a Galeria</a
+      >
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Script do carrossel e lightbox -->
+    <script src="detalhes-imovel.js"></script>
+    <!-- Novo script para carregar detalhes -->
+  </body>
+</html>
