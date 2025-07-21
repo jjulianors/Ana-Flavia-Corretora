@@ -354,12 +354,11 @@ main#imovel-detalhes-container {
 @media (max-width: 480px) {
   /* Para celulares pequenos */
   header {
-    padding: 15px 10px; /* Mais redução de padding */
+    padding: 0px 0px; /* Mais redução de padding */
     min-height: 50px;
   }
 
   .header-logo-svg {
     width: 100%; /* Ocupa 100% da largura disponível no celular */
-    max-width: 250px; /* Um limite ainda menor para telas muito pequenas */
   }
 }
