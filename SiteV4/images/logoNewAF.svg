@@ -2,7 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   viewBox="0 0 1080 305"
+   width="1079.9991mm"
+   height="305mm"
+   viewBox="0 0 1079.9991 305.00001"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -24,14 +26,14 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="0.34825781"
-     inkscape:cx="1124.1672"
-     inkscape:cy="1115.5529"
+     inkscape:cx="501.06557"
+     inkscape:cy="710.68039"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"><sodipodi:guide
+     inkscape:current-layer="g4"><sodipodi:guide
        position="498.88145,541.05303"
        orientation="0.58560214,0.81059863"
        id="guide1"
@@ -157,7 +159,7 @@
      id="layer1"
      transform="translate(382.07841,-92.339379)"><g
        id="g1"
-       transform="matrix(3.0857143,0,0,3.0857143,796.90641,-192.59356)"><image
+       transform="matrix(3.085712,0,0,3.085712,796.90552,-192.59334)"><image
          width="641.96686"
          height="352.95642"
          preserveAspectRatio="none"
@@ -168,7 +170,7 @@
          transform="matrix(-0.32395509,0,0,0.32365301,-258.30216,62.453462)"
          clip-path="url(#clipPath4)" /><path
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.376927;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
-         d="M -382.01415,92.403635 V 191.1178 l 144.67801,-2e-4 52.0926,-98.713743 -196.77061,-2.22e-4"
+         d="m -382.01415,92.403626 v 98.714164 l 144.67801,-2e-4 52.0926,-98.713742 -196.77061,-2.22e-4"
          id="path14"
          sodipodi:nodetypes="ccccc" /><path
          style="fill:#ce9d15;fill-opacity:1;stroke:none;stroke-width:0.40567;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
@@ -217,11 +219,7 @@
                style="opacity:1;fill:#ef9d00;fill-opacity:1;stroke-width:0.396875;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
                d="m 153.68231,73.85459 c 0,0 -21.83052,-3.36538 -61.565697,-3.36538 -39.735174,0 -59.768392,3.36538 -59.768392,3.36538"
                id="path22"
-               sodipodi:nodetypes="czc" /></g></g><path
-           style="font-size:57.5903px;line-height:150%;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;text-align:center;letter-spacing:5.43508px;word-spacing:0px;text-anchor:middle;fill:#ef9d00;stroke-width:5.39913;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
-           d="m -242.11935,349.75156 h -8.77353 l -1.49037,-10.82631 h -3.96496 l -1.49037,10.82631 h -8.77352 l 6.63638,-40.32446 h 11.21998 z m -10.99503,-16.42224 -1.26541,-12.03547 -1.20917,12.03547 z m 40.36045,16.42224 h -9.11096 l -6.01774,-21.48389 v 21.48389 h -7.39563 V 309.4271 h 10.06705 l 5.06165,18.39065 V 309.4271 h 7.39563 z m 31.30573,0 h -8.77353 l -1.49037,-10.82631 h -3.96496 l -1.49037,10.82631 h -8.77352 l 6.63638,-40.32446 h 11.21998 z m -10.99503,-16.42224 -1.26541,-12.03547 -1.20917,12.03547 z m 50.12605,-18.69997 h -7.73307 v 10.88254 h 6.91758 v 4.89292 h -6.91758 v 19.34675 h -8.85789 V 309.4271 h 16.59096 z m 23.57265,35.12221 h -16.61908 V 309.4271 h 8.85789 v 35.15033 h 7.76119 z m 30.743325,0 h -8.773523 l -1.490374,-10.82631 h -3.964958 l -1.49037,10.82631 h -8.77353 l 6.63639,-40.32446 h 11.219982 z m -10.995024,-16.42224 -1.265411,-12.03547 -1.20917,12.03547 z m 40.44481,-24.01715 -5.427211,40.32446 h -12.541638 l -5.427211,-40.32446 h 8.632921 l 3.065109,28.17651 3.036988,-28.17651 z m 15.305292,40.32446 h -8.857883 v -40.32446 h 8.857883 z m 31.165118,0 h -8.773522 l -1.490374,-10.8263 h -3.964958 l -1.490374,10.8263 h -8.773522 l 6.636382,-40.32446 h 11.219986 z m -10.995023,-16.42223 -1.265412,-12.03548 -1.209172,12.03548 z"
-           id="text8"
-           aria-label="ANA FLAVIA" /><g
+               sodipodi:nodetypes="czc" /></g></g><g
            id="g21"
            transform="matrix(2.0977692,0,0,-1.3648227,-334.4711,391.63009)"><g
              id="g20"
@@ -229,7 +227,11 @@
                style="opacity:1;fill:#ef9d00;fill-opacity:1;stroke-width:0.396875;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
                d="m 153.68231,73.85459 c 0,0 -21.83052,-3.36538 -61.565697,-3.36538 -39.735174,0 -59.768392,3.36538 -59.768392,3.36538"
                id="path20"
-               sodipodi:nodetypes="czc" /></g></g></g><rect
+               sodipodi:nodetypes="czc" /></g></g><path
+           style="font-size:57.5903px;line-height:150%;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;text-align:center;letter-spacing:5.43508px;word-spacing:0px;text-anchor:middle;fill:#ef9d00;stroke-width:5.39913;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+           d="m -242.11935,349.75156 h -8.77353 l -1.49037,-10.82631 h -3.96496 l -1.49037,10.82631 h -8.77352 l 6.63638,-40.32446 h 11.21998 z m -10.99503,-16.42224 -1.26541,-12.03547 -1.20917,12.03547 z m 40.36045,16.42224 h -9.11096 l -6.01774,-21.48389 v 21.48389 h -7.39563 V 309.4271 h 10.06705 l 5.06165,18.39065 V 309.4271 h 7.39563 z m 31.30573,0 h -8.77353 l -1.49037,-10.82631 h -3.96496 l -1.49037,10.82631 h -8.77352 l 6.63638,-40.32446 h 11.21998 z m -10.99503,-16.42224 -1.26541,-12.03547 -1.20917,12.03547 z m 50.12605,-18.69997 h -7.73307 v 10.88254 h 6.91758 v 4.89292 h -6.91758 v 19.34675 h -8.85789 V 309.4271 h 16.59096 z m 23.57265,35.12221 h -16.61908 V 309.4271 h 8.85789 v 35.15033 h 7.76119 z m 30.743325,0 h -8.773523 l -1.490374,-10.82631 h -3.964958 l -1.49037,10.82631 h -8.77353 l 6.63639,-40.32446 h 11.219982 z m -10.995024,-16.42224 -1.265411,-12.03547 -1.20917,12.03547 z m 40.44481,-24.01715 -5.427211,40.32446 h -12.541638 l -5.427211,-40.32446 h 8.632921 l 3.065109,28.17651 3.036988,-28.17651 z m 15.305292,40.32446 h -8.857883 v -40.32446 h 8.857883 z m 31.165118,0 h -8.773522 l -1.490374,-10.8263 h -3.964958 l -1.490374,10.8263 h -8.773522 l 6.636382,-40.32446 h 11.219986 z m -10.995023,-16.42223 -1.265412,-12.03548 -1.209172,12.03548 z"
+           id="text8"
+           aria-label="ANA FLAVIA" /></g><rect
          style="fill:none;stroke:#000000;stroke-width:0.12851;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
          id="rect5"
          width="349.87149"
